@@ -15,4 +15,6 @@ branches:
 jobs:
   include:
     - stage: build
-      script: echo build
+      script: make all
+    - stage: tests
+      script: ./tests
