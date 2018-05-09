@@ -17,4 +17,4 @@ jobs:
     - stage: build
       script: make all
     - stage: tests
-      script: ./tests
+      script: make tests
